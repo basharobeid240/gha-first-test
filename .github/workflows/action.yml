@@ -1,0 +1,11 @@
+name: first-acthion
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest  
+    steps:
+      - name: print hi
+        run: echo "hi"
+      - name: print bye
+        run: echo "bye" 
+        
